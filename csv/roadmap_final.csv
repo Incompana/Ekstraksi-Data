@@ -1,0 +1,116 @@
+role,step,skill,category
+Frontend,1,Html,fundamental
+Frontend,2,Css,fundamental
+Frontend,3,Javascript,fundamental
+Frontend,4,Css Frameworks,fundamental
+Frontend,5,Html Templates,fundamental
+Frontend,6,Shadow Dom,fundamental
+Frontend,7,Nodejs,programming
+Frontend,8,Typescript,programming
+Frontend,9,Yarn,tools
+Frontend,10,Github,tools
+Frontend,11,Package Managers,tools
+Frontend,12,Gitlab,tools
+Frontend,13,Git,tools
+Frontend,14,Npm,tools
+Frontend,15,Github Pages,tools
+Frontend,16,React-Router,framework
+Frontend,17,Next.Js,framework
+Frontend,18,React Native,framework
+Frontend,19,Solid Js,framework
+Frontend,20,Vue.Js,framework
+Frontend,21,Angular,framework
+Frontend,22,React,framework
+Frontend,23,Web Apis,advanced
+Frontend,24,Vitest,advanced
+Frontend,25,Testing,advanced
+Frontend,26,Web Security,advanced
+Frontend,27,Vcs Hosting,devops
+Frontend,28,Deployment,devops
+Frontend,29,Netlify,devops
+Backend,1,Html,fundamental
+Backend,2,Css,fundamental
+Backend,3,Javascript,fundamental
+Backend,4,Github,tools
+Backend,5,Gitlab,tools
+Backend,6,Git,tools
+Backend,7,Functional Testing,advanced
+Backend,8,Integration Testing,advanced
+Backend,9,Unit Testing,advanced
+Backend,10,Testing,advanced
+Backend,11,Web Security,advanced
+Backend,12,Open Api Specs,advanced
+Backend,13,Profiling Performance,advanced
+Backend,14,Ci / Cd,devops
+Full Stack,1,Html,fundamental
+Full Stack,2,Css,fundamental
+Full Stack,3,Javascript,fundamental
+Full Stack,4,Node.Js,programming
+Full Stack,5,Git,tools
+Full Stack,6,Github,tools
+Full Stack,7,Npm,tools
+Full Stack,8,Github Actions,tools
+Full Stack,9,React,framework
+DevOps,1,Javascript / Node.Js,programming
+DevOps,2,Github,tools
+DevOps,3,Gitlab,tools
+DevOps,4,Git,tools
+DevOps,5,Gitlab Ci,tools
+DevOps,6,Github Actions,tools
+DevOps,7,Performance Monitoring,advanced
+DevOps,8,Vcs Hosting,devops
+DevOps,9,Cloud Specific Tools,devops
+DevOps,10,Cloud Providers,devops
+DevOps,11,Netlify,devops
+Data Analyst,1,Apis,advanced
+AI Engineer,1,React,framework
+AI Engineer,2,Apis & Sdks,advanced
+AI Engineer,3,Conducting Adversarial Testing,advanced
+AI and Data Scientist,1,Increasing Test Sensitivity,advanced
+AI and Data Scientist,2,"Deployment Models, Ci/Cd",devops
+Data Engineer,1,Yarn,tools
+Data Engineer,2,Git And Github,tools
+Data Engineer,3,Apache Hadoop Yarn,tools
+Data Engineer,4,Gitlab Ci,tools
+Data Engineer,5,Github Actions,tools
+Data Engineer,6,Functional Testing,advanced
+Data Engineer,7,Apis,advanced
+Data Engineer,8,Integration Testing,advanced
+Data Engineer,9,Unit Testing,advanced
+Data Engineer,10,Testing,advanced
+Data Engineer,11,End-To-End Testing,advanced
+Data Engineer,12,Load Testing,advanced
+Data Engineer,13,Ci/Cd,devops
+Data Engineer,14,Cloud Providers,devops
+Machine Learning,1,Apis,advanced
+QA,1,Html Unit,fundamental
+QA,2,"Html, Css, Javascript",fundamental
+QA,3,Github,tools
+QA,4,Gitlab,tools
+QA,5,Git,tools
+QA,6,Gitlab Ci,tools
+QA,7,Functional Testing,advanced
+QA,8,Swifttesting,advanced
+QA,9,Security Testing,advanced
+QA,10,Non-Functional Testing,advanced
+QA,11,Testing Data Management,advanced
+QA,12,Black Box Testing,advanced
+QA,13,Test Planning,advanced
+QA,14,Testing Approaches,advanced
+QA,15,Integration Testing,advanced
+QA,16,Testing Techniques,advanced
+QA,17,Performance Testing,advanced
+QA,18,Test Prioritization,advanced
+QA,19,Unit Testing,advanced
+QA,20,Exploratory Testing,advanced
+QA,21,Manage Your Testing,advanced
+QA,22,Regression Testing,advanced
+QA,23,Vulnerability Scanning,advanced
+QA,24,Testing Methodologies,advanced
+QA,25,Load Testing,advanced
+QA,26,Automated Testing,advanced
+QA,27,Azure Devops Services,devops
+QA,28,Ci / Cd,devops
+Cyber Security,1,Javascript,fundamental
+Cyber Security,2,Endpoint Security,advanced
+UX Design,1,Testing,advanced

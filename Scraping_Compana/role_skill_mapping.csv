@@ -1,0 +1,161 @@
+role_id,role_name,domain_interest,required_skill_id,required_skill_name,skill_category,priority,minimum_level,step_order,prerequisite_skill_id
+backend_developer,Backend Developer,web_development,typescript,TypeScript,fundamental,high,basic,1,
+backend_developer,Backend Developer,web_development,rest_api,REST API,fundamental,high,basic,2,typescript
+backend_developer,Backend Developer,web_development,javascript,JavaScript,fundamental,high,basic,3,rest_api
+backend_developer,Backend Developer,web_development,git,Git,core,high,intermediate,4,javascript
+backend_developer,Backend Developer,web_development,sql,SQL,core,high,intermediate,5,git
+backend_developer,Backend Developer,web_development,postgresql,PostgreSQL,core,high,intermediate,6,sql
+backend_developer,Backend Developer,web_development,mysql,MySQL,core,high,intermediate,7,postgresql
+backend_developer,Backend Developer,web_development,java,Java,core,high,intermediate,8,mysql
+backend_developer,Backend Developer,web_development,reactjs,React.js,core,medium,intermediate,9,java
+backend_developer,Backend Developer,web_development,golang,Golang,core,medium,intermediate,10,reactjs
+backend_developer,Backend Developer,web_development,php,PHP,core,medium,intermediate,11,golang
+backend_developer,Backend Developer,web_development,css,CSS,core,medium,intermediate,12,php
+backend_developer,Backend Developer,web_development,python,Python,core,medium,intermediate,13,css
+backend_developer,Backend Developer,web_development,microservices,Microservices,core,medium,intermediate,14,python
+backend_developer,Backend Developer,web_development,docker,Docker,core,medium,intermediate,15,microservices
+backend_developer,Backend Developer,web_development,html,HTML,specialized,low,advanced,16,docker
+backend_developer,Backend Developer,web_development,ci_cd,CI/CD,specialized,low,advanced,17,html
+backend_developer,Backend Developer,web_development,nodejs,Node.js,specialized,low,advanced,18,ci_cd
+backend_developer,Backend Developer,web_development,agile_scrum,Agile/Scrum,specialized,low,advanced,19,nodejs
+backend_developer,Backend Developer,web_development,ui_ux,UI/UX,specialized,low,advanced,20,agile_scrum
+cyber_security,Cyber Security,cyber_security,typescript,TypeScript,fundamental,high,basic,1,
+cyber_security,Cyber Security,cyber_security,cybersecurity,Cybersecurity,fundamental,high,basic,2,typescript
+cyber_security,Cyber Security,cyber_security,excel,Excel,fundamental,high,basic,3,cybersecurity
+cyber_security,Cyber Security,cyber_security,linux,Linux,core,high,intermediate,4,excel
+cyber_security,Cyber Security,cyber_security,aws,AWS,core,high,intermediate,5,linux
+cyber_security,Cyber Security,cyber_security,azure,Azure,core,high,intermediate,6,aws
+cyber_security,Cyber Security,cyber_security,gcp,GCP,core,high,intermediate,7,azure
+cyber_security,Cyber Security,cyber_security,penetration_testing,Penetration Testing,core,high,intermediate,8,gcp
+cyber_security,Cyber Security,cyber_security,python,Python,core,medium,intermediate,9,penetration_testing
+cyber_security,Cyber Security,cyber_security,ci_cd,CI/CD,core,medium,intermediate,10,python
+cyber_security,Cyber Security,cyber_security,docker,Docker,core,medium,intermediate,11,ci_cd
+cyber_security,Cyber Security,cyber_security,git,Git,core,medium,intermediate,12,docker
+cyber_security,Cyber Security,cyber_security,machine_learning,Machine Learning,core,medium,intermediate,13,git
+cyber_security,Cyber Security,cyber_security,problem_solving,Problem Solving,core,medium,intermediate,14,machine_learning
+cyber_security,Cyber Security,cyber_security,agile_scrum,Agile/Scrum,core,medium,intermediate,15,problem_solving
+cyber_security,Cyber Security,cyber_security,rest_api,REST API,specialized,low,advanced,16,agile_scrum
+cyber_security,Cyber Security,cyber_security,sql,SQL,specialized,low,advanced,17,rest_api
+cyber_security,Cyber Security,cyber_security,kubernetes,Kubernetes,specialized,low,advanced,18,sql
+cyber_security,Cyber Security,cyber_security,golang,Golang,specialized,low,advanced,19,kubernetes
+cyber_security,Cyber Security,cyber_security,java,Java,specialized,low,advanced,20,golang
+data_analyst,Data Analyst,data_science,typescript,TypeScript,fundamental,high,basic,1,
+data_analyst,Data Analyst,data_science,excel,Excel,fundamental,high,basic,2,typescript
+data_analyst,Data Analyst,data_science,sql,SQL,fundamental,high,basic,3,excel
+data_analyst,Data Analyst,data_science,power_bi,Power BI,core,high,intermediate,4,sql
+data_analyst,Data Analyst,data_science,python,Python,core,high,intermediate,5,power_bi
+data_analyst,Data Analyst,data_science,tableau,Tableau,core,high,intermediate,6,python
+data_analyst,Data Analyst,data_science,machine_learning,Machine Learning,core,high,intermediate,7,tableau
+data_analyst,Data Analyst,data_science,etl,ETL,core,high,intermediate,8,machine_learning
+data_analyst,Data Analyst,data_science,rest_api,REST API,core,medium,intermediate,9,etl
+data_analyst,Data Analyst,data_science,golang,Golang,core,medium,intermediate,10,rest_api
+data_analyst,Data Analyst,data_science,r,R,core,medium,intermediate,11,golang
+data_analyst,Data Analyst,data_science,postgresql,PostgreSQL,core,medium,intermediate,12,r
+data_analyst,Data Analyst,data_science,problem_solving,Problem Solving,core,medium,intermediate,13,postgresql
+data_analyst,Data Analyst,data_science,data_modeling,Data Modeling,core,medium,intermediate,14,problem_solving
+data_analyst,Data Analyst,data_science,javascript,JavaScript,core,medium,intermediate,15,data_modeling
+data_analyst,Data Analyst,data_science,aws,AWS,specialized,low,advanced,16,javascript
+data_analyst,Data Analyst,data_science,mysql,MySQL,specialized,low,advanced,17,aws
+data_analyst,Data Analyst,data_science,html,HTML,specialized,low,advanced,18,mysql
+data_analyst,Data Analyst,data_science,java,Java,specialized,low,advanced,19,html
+data_analyst,Data Analyst,data_science,agile_scrum,Agile/Scrum,specialized,low,advanced,20,java
+data_scientist,Data Scientist,data_science,typescript,TypeScript,fundamental,high,basic,1,
+data_scientist,Data Scientist,data_science,excel,Excel,fundamental,high,basic,2,typescript
+data_scientist,Data Scientist,data_science,sql,SQL,fundamental,high,basic,3,excel
+data_scientist,Data Scientist,data_science,python,Python,core,high,intermediate,4,sql
+data_scientist,Data Scientist,data_science,power_bi,Power BI,core,high,intermediate,5,python
+data_scientist,Data Scientist,data_science,machine_learning,Machine Learning,core,high,intermediate,6,power_bi
+data_scientist,Data Scientist,data_science,etl,ETL,core,high,intermediate,7,machine_learning
+data_scientist,Data Scientist,data_science,rest_api,REST API,core,high,intermediate,8,etl
+data_scientist,Data Scientist,data_science,tableau,Tableau,core,medium,intermediate,9,rest_api
+data_scientist,Data Scientist,data_science,azure,Azure,core,medium,intermediate,10,tableau
+data_scientist,Data Scientist,data_science,golang,Golang,core,medium,intermediate,11,azure
+data_scientist,Data Scientist,data_science,aws,AWS,core,medium,intermediate,12,golang
+data_scientist,Data Scientist,data_science,data_modeling,Data Modeling,core,medium,intermediate,13,aws
+data_scientist,Data Scientist,data_science,gcp,GCP,core,medium,intermediate,14,data_modeling
+data_scientist,Data Scientist,data_science,postgresql,PostgreSQL,core,medium,intermediate,15,gcp
+data_scientist,Data Scientist,data_science,ci_cd,CI/CD,specialized,low,advanced,16,postgresql
+data_scientist,Data Scientist,data_science,problem_solving,Problem Solving,specialized,low,advanced,17,ci_cd
+data_scientist,Data Scientist,data_science,javascript,JavaScript,specialized,low,advanced,18,problem_solving
+data_scientist,Data Scientist,data_science,java,Java,specialized,low,advanced,19,javascript
+data_scientist,Data Scientist,data_science,docker,Docker,specialized,low,advanced,20,java
+devops_engineer,Devops Engineer,devops,typescript,TypeScript,fundamental,high,basic,1,
+devops_engineer,Devops Engineer,devops,aws,AWS,fundamental,high,basic,2,typescript
+devops_engineer,Devops Engineer,devops,ci_cd,CI/CD,fundamental,high,basic,3,aws
+devops_engineer,Devops Engineer,devops,azure,Azure,core,high,intermediate,4,ci_cd
+devops_engineer,Devops Engineer,devops,docker,Docker,core,high,intermediate,5,azure
+devops_engineer,Devops Engineer,devops,python,Python,core,high,intermediate,6,docker
+devops_engineer,Devops Engineer,devops,gcp,GCP,core,high,intermediate,7,python
+devops_engineer,Devops Engineer,devops,linux,Linux,core,high,intermediate,8,gcp
+devops_engineer,Devops Engineer,devops,excel,Excel,core,medium,intermediate,9,linux
+devops_engineer,Devops Engineer,devops,kubernetes,Kubernetes,core,medium,intermediate,10,excel
+devops_engineer,Devops Engineer,devops,git,Git,core,medium,intermediate,11,kubernetes
+devops_engineer,Devops Engineer,devops,rest_api,REST API,core,medium,intermediate,12,git
+devops_engineer,Devops Engineer,devops,golang,Golang,core,medium,intermediate,13,rest_api
+devops_engineer,Devops Engineer,devops,sql,SQL,core,medium,intermediate,14,golang
+devops_engineer,Devops Engineer,devops,postgresql,PostgreSQL,core,medium,intermediate,15,sql
+devops_engineer,Devops Engineer,devops,agile_scrum,Agile/Scrum,specialized,low,advanced,16,postgresql
+devops_engineer,Devops Engineer,devops,javascript,JavaScript,specialized,low,advanced,17,agile_scrum
+devops_engineer,Devops Engineer,devops,java,Java,specialized,low,advanced,18,javascript
+devops_engineer,Devops Engineer,devops,cybersecurity,Cybersecurity,specialized,low,advanced,19,java
+devops_engineer,Devops Engineer,devops,microservices,Microservices,specialized,low,advanced,20,cybersecurity
+frontend_developer,Frontend Developer,web_development,javascript,JavaScript,fundamental,high,basic,1,
+frontend_developer,Frontend Developer,web_development,rest_api,REST API,fundamental,high,basic,2,javascript
+frontend_developer,Frontend Developer,web_development,typescript,TypeScript,fundamental,high,basic,3,rest_api
+frontend_developer,Frontend Developer,web_development,git,Git,core,high,intermediate,4,typescript
+frontend_developer,Frontend Developer,web_development,reactjs,React.js,core,high,intermediate,5,git
+frontend_developer,Frontend Developer,web_development,css,CSS,core,high,intermediate,6,reactjs
+frontend_developer,Frontend Developer,web_development,mysql,MySQL,core,high,intermediate,7,css
+frontend_developer,Frontend Developer,web_development,sql,SQL,core,high,intermediate,8,mysql
+frontend_developer,Frontend Developer,web_development,html,HTML,core,medium,intermediate,9,sql
+frontend_developer,Frontend Developer,web_development,php,PHP,core,medium,intermediate,10,html
+frontend_developer,Frontend Developer,web_development,machine_learning,Machine Learning,core,medium,intermediate,11,php
+frontend_developer,Frontend Developer,web_development,postgresql,PostgreSQL,core,medium,intermediate,12,machine_learning
+frontend_developer,Frontend Developer,web_development,ui_ux,UI/UX,core,medium,intermediate,13,postgresql
+frontend_developer,Frontend Developer,web_development,vuejs,Vue.js,core,medium,intermediate,14,ui_ux
+frontend_developer,Frontend Developer,web_development,python,Python,core,medium,intermediate,15,vuejs
+frontend_developer,Frontend Developer,web_development,laravel,Laravel,specialized,low,advanced,16,python
+frontend_developer,Frontend Developer,web_development,nodejs,Node.js,specialized,low,advanced,17,laravel
+frontend_developer,Frontend Developer,web_development,nextjs,Next.js,specialized,low,advanced,18,nodejs
+frontend_developer,Frontend Developer,web_development,java,Java,specialized,low,advanced,19,nextjs
+frontend_developer,Frontend Developer,web_development,docker,Docker,specialized,low,advanced,20,java
+machine_learning,Machine Learning,ai_ml,typescript,TypeScript,fundamental,high,basic,1,
+machine_learning,Machine Learning,ai_ml,python,Python,fundamental,high,basic,2,typescript
+machine_learning,Machine Learning,ai_ml,machine_learning,Machine Learning,fundamental,high,basic,3,python
+machine_learning,Machine Learning,ai_ml,sql,SQL,core,high,intermediate,4,machine_learning
+machine_learning,Machine Learning,ai_ml,excel,Excel,core,high,intermediate,5,sql
+machine_learning,Machine Learning,ai_ml,gcp,GCP,core,high,intermediate,6,excel
+machine_learning,Machine Learning,ai_ml,aws,AWS,core,high,intermediate,7,gcp
+machine_learning,Machine Learning,ai_ml,rest_api,REST API,core,high,intermediate,8,aws
+machine_learning,Machine Learning,ai_ml,etl,ETL,core,medium,intermediate,9,rest_api
+machine_learning,Machine Learning,ai_ml,azure,Azure,core,medium,intermediate,10,etl
+machine_learning,Machine Learning,ai_ml,tensorflow,TensorFlow,core,medium,intermediate,11,azure
+machine_learning,Machine Learning,ai_ml,pytorch,PyTorch,core,medium,intermediate,12,tensorflow
+machine_learning,Machine Learning,ai_ml,postgresql,PostgreSQL,core,medium,intermediate,13,pytorch
+machine_learning,Machine Learning,ai_ml,power_bi,Power BI,core,medium,intermediate,14,postgresql
+machine_learning,Machine Learning,ai_ml,docker,Docker,core,medium,intermediate,15,power_bi
+machine_learning,Machine Learning,ai_ml,ci_cd,CI/CD,specialized,low,advanced,16,docker
+machine_learning,Machine Learning,ai_ml,javascript,JavaScript,specialized,low,advanced,17,ci_cd
+machine_learning,Machine Learning,ai_ml,git,Git,specialized,low,advanced,18,javascript
+machine_learning,Machine Learning,ai_ml,java,Java,specialized,low,advanced,19,git
+machine_learning,Machine Learning,ai_ml,spark,Spark,specialized,low,advanced,20,java
+ui_ux_designer,Ui Ux Designer,ui_ux,typescript,TypeScript,fundamental,high,basic,1,
+ui_ux_designer,Ui Ux Designer,ui_ux,ui_ux,UI/UX,fundamental,high,basic,2,typescript
+ui_ux_designer,Ui Ux Designer,ui_ux,figma,Figma,fundamental,high,basic,3,ui_ux
+ui_ux_designer,Ui Ux Designer,ui_ux,excel,Excel,core,high,intermediate,4,figma
+ui_ux_designer,Ui Ux Designer,ui_ux,wireframing,Wireframing,core,high,intermediate,5,excel
+ui_ux_designer,Ui Ux Designer,ui_ux,javascript,JavaScript,core,high,intermediate,6,wireframing
+ui_ux_designer,Ui Ux Designer,ui_ux,css,CSS,core,high,intermediate,7,javascript
+ui_ux_designer,Ui Ux Designer,ui_ux,html,HTML,core,high,intermediate,8,css
+ui_ux_designer,Ui Ux Designer,ui_ux,rest_api,REST API,core,medium,intermediate,9,html
+ui_ux_designer,Ui Ux Designer,ui_ux,git,Git,core,medium,intermediate,10,rest_api
+ui_ux_designer,Ui Ux Designer,ui_ux,machine_learning,Machine Learning,core,medium,intermediate,11,git
+ui_ux_designer,Ui Ux Designer,ui_ux,prototyping,Prototyping,core,medium,intermediate,12,machine_learning
+ui_ux_designer,Ui Ux Designer,ui_ux,reactjs,React.js,core,medium,intermediate,13,prototyping
+ui_ux_designer,Ui Ux Designer,ui_ux,agile_scrum,Agile/Scrum,core,medium,intermediate,14,reactjs
+ui_ux_designer,Ui Ux Designer,ui_ux,nextjs,Next.js,core,medium,intermediate,15,agile_scrum
+ui_ux_designer,Ui Ux Designer,ui_ux,sql,SQL,specialized,low,advanced,16,nextjs
+ui_ux_designer,Ui Ux Designer,ui_ux,problem_solving,Problem Solving,specialized,low,advanced,17,sql
+ui_ux_designer,Ui Ux Designer,ui_ux,golang,Golang,specialized,low,advanced,18,problem_solving
+ui_ux_designer,Ui Ux Designer,ui_ux,mysql,MySQL,specialized,low,advanced,19,golang
+ui_ux_designer,Ui Ux Designer,ui_ux,vuejs,Vue.js,specialized,low,advanced,20,mysql
